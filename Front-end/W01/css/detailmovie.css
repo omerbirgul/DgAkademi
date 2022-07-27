@@ -1,0 +1,145 @@
+body{
+    box-sizing: border-box;
+    background-color: #DEDFE1;
+}
+        /* IMAGE*/
+.movie_trailer{
+    position: relative;
+    
+}
+.movie_trailer img{
+    width: 100%;
+    margin-top: 0px;
+    height: 200px
+}
+
+.video_icons{
+    display: flex;
+    color: white;
+    
+}
+.video_icons .icon_back{
+    position: absolute;
+    top: 15px;
+    left: 15px;  
+}
+.video_icons .icon_play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;  
+}
+.video_icons .icon_more{
+    position: absolute;
+    top: 15px;
+    right: 15px;  
+}
+
+        /* HEADER */
+
+.movie_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
+}
+.movie_name{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.movie_rating{
+    margin: 30px 8px 5px 8px;
+    display: flex;
+    align-items: center;
+}
+.icon_star{
+    color: #F2CD00;
+    font-size: small;
+}
+.movie_rating span{
+    color: grey;
+    opacity: 0.4;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.movie_genre{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.movie_genre span{
+border: 1px solid grey;
+margin-left: 5px;
+margin-right: 5px;
+border-radius: 6px;
+background-color: #52B7E9;
+color: #242444;
+font-size: 12px;
+font-style: italic;
+opacity: 0.8;
+}
+
+.tables{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+.table_item{
+    font-weight: bold;
+}
+
+        /* MAIN */
+
+main{
+    margin: 8px;
+}
+
+.presentation{
+    color:grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+        /* FOOTER */
+
+footer{
+    margin: 8px;
+}
+
+.cast_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.cast_text .span_cast{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cast_text button{
+    border-radius: 15px;
+    background-color: #CCDEEC;
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.cast img{
+    width: 70px;
+    height: 90px;
+    margin-left: 10px;
+}
+
+.cast1,.cast2,.cast3,.cast4{
+    display: inline-block;
+}
+
+.cast_name{
+    font-size: 9px;
+    margin-left: 20px;
+}
+
+
