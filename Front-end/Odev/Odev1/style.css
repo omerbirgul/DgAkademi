@@ -1,0 +1,73 @@
+
+h1,h2,h3,h4{
+    color: #B10000;
+}
+body{
+    background-color: #52B8BD;
+    margin: 0;
+}
+
+.main-header{
+    background-color: #FBCEB1;
+    border-radius: 10px;
+    padding: 8px 16px   ;
+}
+
+.main-nav {
+    display: inline-block;
+    width: calc(100% - 150px);
+    text-align: right;
+}
+
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.main-header__logo{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.main-nav__item a{
+color: white;
+text-decoration: none;
+font-weight: bold;
+font-size: 20px;
+}
+.main-video{
+    display: inline-block;
+    border-radius: 10%;
+}
+
+.ingredients{
+    display: inline-block;
+    
+}
+.ingredients-item{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ingredients li{
+    list-style: none;
+}
+
+.food-picture img{
+    width: 100px;
+    display: inline-block;
+}
+
+.howTo li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+}
