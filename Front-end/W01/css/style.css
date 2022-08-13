@@ -1,6 +1,4 @@
-body{
-    background-color: #DEDFE1;
-}
+
 /* HEADER */
 
 .header{
@@ -9,8 +7,6 @@ body{
     align-items: center;
     margin: 5px;
     padding: 5px;
-    border-bottom: solid grey 1px;
-    background-color: white;
 }
 
 .header_text{
@@ -93,8 +89,6 @@ opacity: 0.5;
 
 .footer{
     border-top: 1px solid grey;
-    background-color: white;
-    height: 30px;
 }
 .footer_icon{
     margin-left: 8px;
@@ -104,3 +98,4 @@ opacity: 0.5;
     justify-content: space-between;
     align-items: center;
 }
+
