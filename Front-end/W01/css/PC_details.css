@@ -1,0 +1,110 @@
+body{
+    background-color: #F8F8F8;
+}
+.header img{
+    margin: 0 auto;
+    width: 100%;
+}
+.header{
+position: relative;
+}
+
+.header_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    top: 100px;
+}
+.header_icons{
+    position: absolute;
+    top: 40px;
+    left: 80%;
+}
+.icon_play{
+    position: absolute;
+    top: 200px;
+    /* right: 600px; */
+    right: 350%;
+}
+.header_icons img{
+    width: 40px;
+    margin: 8px;
+}
+#isim{
+    position: absolute;
+    top: 40px;
+    left: 15%;
+    color: white;
+}
+
+        /* MAIN */
+.main{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 500px;
+    width: 1000px;
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    border-radius: 40px;
+}
+.movie_text{
+    margin: 15px 10px 15px 30px;
+    display: flex;
+    align-items: center;
+}
+#movie_name{
+    font-size: 25px;
+    font-weight:800
+}
+#movie_rating{
+    margin-left: 30px;
+}
+#kaydet_icon{
+    margin-left: 450px;
+}
+#kaydet_icon img{
+    width: 30px;
+}
+
+.movie_genre span{
+    border: 1px solid grey;
+    border-radius: 80px;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #DBE3FF;
+    color: #88A4E8;
+}
+.movie_genre{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.movie_info{
+    margin-top: 40px;
+}
+.movie_info div{
+    display: inline-block;
+    margin-left: 50px;
+}
+.movie_info p{
+    font-weight: bold;
+}
+
+.movie_description{
+    margin-left: 30px;
+}
+
+.footer{
+    margin-left: 30px;
+}
+
+.cast div{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.cast{
+    display: flex;
+}
