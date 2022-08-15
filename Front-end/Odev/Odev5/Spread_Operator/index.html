@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const msg = ["Benim","Adım","Ömer","Birgül"];
+    let sonuc = "";
+    for(let a of msg){
+        sonuc += a + " "
+    }
+    console.log(...msg)
+
+    const dizi1 =["bir","iki"];
+    const dizi2 = ["üç","dört"];
+    const dizi3 = [...dizi1, ...dizi2]
+    console.log(dizi1 , dizi2)
+    console.log(dizi3)
+
+
+
+    const user = {
+        username: "omerbirgul",
+        email: "info@gmail.com"
+    };
+    const adress = {
+        username: "adsa",
+        city: "Manisa"
+    }
+    console.log({...user, ...adress})
+
+
+
+    function toplama(...item){
+        let sonuc = 0;
+        for(let sayi of item){
+            sonuc += sayi
+        }
+        return sonuc
+    }
+    console.log(toplama(10,8,30))
+
+
+
+
+    function bilgileriGoster(isim,soyad,...adres){
+        console.log(isim,soyad,adres);
+    }
+    bilgileriGoster("ömer","birgül","manisa","yunusemre");
+</script>
+</html>
