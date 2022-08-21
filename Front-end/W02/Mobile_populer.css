@@ -1,0 +1,133 @@
+
+/* HEADER */
+
+
+@media(min-width: 768px){
+    .header_mobile{
+        display: none;      
+    }
+    .header_PC{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .pc_icons{
+        display: flex;
+        align-items: center;
+    }
+    .pc_icons img{
+        padding: 10px;
+        width: 45px;
+    }
+
+}
+
+@media(max-width: 768px){
+    .header_PC{
+        display: none;
+    }
+
+    .header_mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+/* MAIN */
+
+        /* INFO */
+.main .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    margin-top: 15px;
+}
+
+.info :last-child{
+    padding-left:  5px;
+    padding-right: 5px;
+    border: 1px solid gray;
+    border-radius: 35px;
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+        /* MOVIES */
+
+.movie_banner img{
+    width: 100px;
+}
+.movie_banner{
+    margin: 10px;
+    display: inline-block;
+}
+.movie{
+    display: flex;
+}
+.movie_name{
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.movie_rating{
+    margin-top: 5px;
+}
+
+.movie_rating img{
+    width: 12px;
+}
+.movie_rating span{
+    color: grey;
+    opacity: 0.4;
+    font-size: 12px;
+}
+.movie_genre{
+    margin-top: 15px;
+}
+.movie_genre span{
+    padding:  5px 10px 5px 10px;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 55px;
+    background-color: #DBE3FF;
+    color: #88A4E8;
+    font-size: 12px;
+}
+
+.movie_duration img{
+    width: 12px;
+}
+
+.movie_duration{
+    margin-top: 15px;
+    margin-left: 8px;
+}
+.movie_duration span{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+        /* FOOTER */
+
+.footer{
+    border-top: 1px solid grey;
+    height: 50px;
+}
+.footer_icon{
+
+
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
